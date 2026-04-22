@@ -1,0 +1,169 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'resident';
+    src: url(html-css/fontes/Resident\ Evil\ 7\ Regular.otf);
+    font-weight: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=BJ+Cree:wght@400;500;600;700&family=Bebas+Neue&family=Miranda+Sans:ital,wght@0,400..700;1,400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oswald:wght@200..700&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+:root{ 
+
+    --cor-fundo: #0d0d0dc4;
+    --cor-fundo-sec: #1a1a1a;
+
+    --cor-vermelho: #8b0000ea;
+    --cor-vermelho-vivo: #FF2E2E;
+    --cor-vermelho-meioviva: #ff2e2ec7;
+    --cor-verde: #00FF9C;
+
+    --cor-texto: #E0E0E0;
+    --cor-texto-sec: #AAAAAA;
+
+    --fonte-padrao: "Quicksand", sans-serif;
+    --fonte-resident: 'resident', Times, serif;
+    --fonte-ultimavida: Arial, Helvetica, sans-serif
+}
+
+*{
+margin: 0%;
+padding: 0%;
+}
+
+header{
+ background: linear-gradient(to bottom, var(--cor-fundo), var(--cor-vermelho));
+ text-align: center;
+}
+
+header  h1{
+    font-family: 'resident', Times, serif;
+     font-size:62px;
+    font-weight: normal;
+    text-shadow: 2px 5px 10px black;
+}
+
+header p{
+    text-align: unset;
+    text-shadow: 2px 5px 10px black ;
+        padding: 11px;
+}
+
+nav {
+    background-color: var(--cor-vermelho);
+    text-align: justify;
+    padding-bottom: 4px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: var(--cor-texto-sec);
+    padding: 10px;
+    padding-bottom: 4px;
+}
+
+a:hover{
+    background-color: rgba(255, 255, 255, 0.171);
+    border-radius: 3px;
+}
+
+body{
+    text-align: center;
+    font-family: var(--fonte-padrao);
+     background-color: var(--cor-fundo-sec);
+     color: var(--cor-texto); 
+}
+
+
+
+main{
+    background-color: var(--cor-fundo);
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 20px;
+    min-width: 300px;
+    max-width: 700px;
+    color: var(--cor-texto-sec);
+    text-indent: 30px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+main h1{
+   font-family: var(--fonte-resident);
+    font-weight: normal;
+    font-size: 62px;
+    color: var(--cor-vermelho);
+}
+
+main h2{
+background-image: linear-gradient(to right, var(--cor-vermelho-meioviva), var(--cor-fundo-sec));
+ font-family: var(--fonte-resident);
+    font-weight: normal;
+    font-size: 62px;
+}
+main p{
+    line-height: 1.6;
+}
+
+ aside{
+    background-color: #2a0a0a8c;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+ }
+ aside > h3{
+    font-family: 'resident', Times, serif;
+    text-align: left;
+    text-indent: 10px;
+    padding-bottom: 10px;
+    font-weight: normal;
+    font-size: 39px;
+    margin-top: 30px;
+ }
+
+ footer{
+    background-color: black;
+    font-size: 11px;
+ }
+
+strong{
+background-color:#ff2e2e3d;
+}
+
+.grace{
+font-size: 50px;
+}
+
+main p{
+    text-align: justify;
+}
+
+img{
+    width: 59%;
+    display: block;
+    margin: auto;
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+
+.city{
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+.city1{
+     width: 70%;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+div.video{
+    padding-bottom: 55.92%;
+    position: relative;
+}
+
